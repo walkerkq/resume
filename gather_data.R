@@ -24,6 +24,7 @@ if(using_googlesheets){
   text_blocks   <- read_sheet(positions_sheet_loc, sheet = "text_blocks")
   contact_info  <- read_sheet(positions_sheet_loc, sheet = "contact_info")
   tools         <- read_sheet(positions_sheet_loc, sheet = "tools")
+  blog          <- read_sheet(positions_sheet_loc, sheet = "blog_list")
   
 } else {
   

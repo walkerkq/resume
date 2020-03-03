@@ -90,13 +90,26 @@ tools %>%
   glue_data("- <i class='fa fa-{icon}'></i> {tools}")
 ```
 
+Blog {#blog} 
+--------------------------------------------------------------------------------  
+
+```{r}
+print_text_block(text_blocks, 'blog') 
+```
+
+Some favorites include:  
+
+```{r}
+blog %>% 
+  glue_data("- <i class='fa fa-{icon}'></i> {bullet}")
+```
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
-Source code: [github.com/walkerkq/resume](https://github.com/walkekrq/resume).
+Source code: [github.com/walkerkq/resume](https://github.com/walkerkq/resume).
 
 Last updated on `r Sys.Date()`.
 
