@@ -1,5 +1,5 @@
 ---
-title: Kaylin Pavlik's Resume"
+title: Kaylin Pavlik's Resume
 author: Kaylin Pavlik
 date: "`r Sys.Date()`"
 output:
